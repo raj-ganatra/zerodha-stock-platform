@@ -36,7 +36,7 @@ function Stats() {
                     <NavLink to="/products"><img src="media/images/ecosystem.png" alt="Ecosystem-Image"/></NavLink>
                     <div className='anchor-div'>
                         <NavLink to="/products" className='a1'>Explore our products <i className="fa-solid fa-arrow-right"></i></NavLink>
-                        <a href="http://localhost:5175/" className='a2'>Try Kite demo <i className="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://dashboard-v8fk.onrender.com/" className='a2'>Try Kite demo <i className="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
 

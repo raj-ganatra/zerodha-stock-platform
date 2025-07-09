@@ -44,7 +44,7 @@ function SellWindow({funcSell, funcBuy, companyInfo, addOrders, deletePositions,
 
         // console.log(e.target);
 
-        let response=await axios.post("http://localhost:3000/selling",formData);
+        let response=await axios.post("https://zerodha-stock-platform.onrender.com/selling",formData);
         // console.log(response.data);
 
         addOrders(formData);

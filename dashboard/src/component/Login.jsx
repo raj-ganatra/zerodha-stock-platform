@@ -65,7 +65,7 @@ function Login() {
         }
 
         try{
-            let response=await axios.post("http://localhost:3000/login",formData,{withCredentials:true});;
+            let response=await axios.post("https://zerodha-stock-platform.onrender.com/login",formData,{withCredentials:true});;
             console.log(response.data);
 
             if(response.data==="login-successfully!"){

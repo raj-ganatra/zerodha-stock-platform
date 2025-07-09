@@ -28,7 +28,7 @@ function Positions() {
 
     useEffect(()=>{
         async function check(){
-            let response = await axios.get("http://localhost:3000/check-auth",{withCredentials:true});
+            let response = await axios.get("https://zerodha-stock-platform.onrender.com/check-auth",{withCredentials:true});
     
             if(response.data==="notLoggedIn"){
                 window.location.href = "/";
@@ -53,7 +53,7 @@ function Positions() {
     
     async function addPositions(position){
 
-        let postResponse=await axios.post("http://localhost:3000/positions",position,{withCredentials:true});
+        let postResponse=await axios.post("https://zerodha-stock-platform.onrender.com/positions",position,{withCredentials:true});
         // console.log(postResponse.data);
         // setPositionArr(positionArr);
         
@@ -61,7 +61,7 @@ function Positions() {
     
     async function getArr(userId){
         if(userId){
-            let getResponse=await axios.get(`http://localhost:3000/positions/${userId}`,{withCredentials:true});
+            let getResponse=await axios.get(`https://zerodha-stock-platform.onrender.com/positions/${userId}`,{withCredentials:true});
 
         setExistPosition(getResponse.data.length>0);
 
@@ -91,18 +91,18 @@ function Positions() {
     // console.log(trigger);
 
     async function deletePositions(data){
-        let deleteResponse=await axios.put("http://localhost:3000/positions",data,{withCredentials:true});
+        let deleteResponse=await axios.put("https://zerodha-stock-platform.onrender.com/positions",data,{withCredentials:true});
         console.log(deleteResponse.data);
     }
 
     async function deleteHoldings(data){
-        let deleteResponse=axios.put("http://localhost:3000/holdings",data,{withCredentials:true});
+        let deleteResponse=axios.put("https://zerodha-stock-platform.onrender.com/holdings",data,{withCredentials:true});
         console.log(deleteResponse.data);
     }
 
     async function addOrders(data){
         try{
-            let placedOrder=await axios.post("http://localhost:3000/orders/place",data,{withCredentials:true});
+            let placedOrder=await axios.post("https://zerodha-stock-platform.onrender.com/orders/place",data,{withCredentials:true});
             console.log(placedOrder.data);
             setMsg(()=>{
                 return "Order Placed SuccessFully!";

@@ -52,7 +52,7 @@ function BuyWindow({funcBuy, funcSell, companyInfo, addOrders,username}) {
         }
         // console.log(formData.product);
 
-        let response=await axios.post("http://localhost:3000/buying",formData);
+        let response=await axios.post("https://zerodha-stock-platform.onrender.com/buying",formData);
         if(response.data==="not logged in"){
             navigate("/");
         }

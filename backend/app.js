@@ -57,8 +57,8 @@ const sessionOptions={
 app.use(session(sessionOptions));
 app.use(cors({
     origin:[
-        "http://localhost:5173",
-        "http://localhost:5175",
+        "https://frontend-l0do.onrender.com",
+        "https://dashboard-v8fk.onrender.com",
     ],
     credentials:true,
 }));
