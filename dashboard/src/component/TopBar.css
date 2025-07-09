@@ -1,0 +1,66 @@
+.topbar-container{
+    height:44px;
+    width:100%;
+    /* border:2px solid red; */
+    background-color: white;
+    display: flex;
+    /* border-bottom: 2px solid #eee; */
+}
+
+.topbar-container .nifty{
+    width:50%;
+    /* border:2px solid blue; */
+    height:80%;
+    padding-top: 8px;
+    text-align: end;
+}
+
+.topbar-container .nifty .logo{
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.topbar-container .nifty .price{
+    font-size: 12px;
+    font-weight: 700;
+    color:rgba(223, 81, 76, 1);
+    margin-right: 8px;
+}
+
+.topbar-container .nifty .up-down{
+    font-size: 10px;
+    margin-right: 10px;
+    color: #9b9b9b;
+}
+
+.topbar-container .sensex{
+    width:50%;
+    /* border:2px solid blue; */
+    height:80%;
+    padding-top: 8px;
+    text-align: start;
+}
+
+.topbar-container .sensex .logo{
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.topbar-container .sensex .price{
+    font-size: 12px;
+    font-weight: 700;
+    color:rgba(223, 81, 76, 1);
+    margin-right: 8px;
+}
+
+.topbar-container .sensex .up-down{
+    font-size: 10px;
+    margin-right: 10px;
+    color: #9b9b9b;
+}
+
+p{
+    display: inline;
+}

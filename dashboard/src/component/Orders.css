@@ -1,0 +1,178 @@
+.orders-section{
+    height:100vh;
+    width:98vw;
+    background-color: white;
+}
+
+.orders-section .container{
+    height:100%;
+    width:100%;
+    display:flex;
+}
+
+.orders-section .container .orders-container{
+    height: 100%;
+    width:68%;
+    margin-left: 33%;
+}
+
+.orders-section .container .orders-container .orders-info{
+    width:100%;
+    height: 93%;
+    margin-top: 48px;
+    border-top: 0.1px solid #eee;
+    border-left: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    box-shadow: 2px 0px 2px #eee;
+}
+
+.orders-section .container .orders-container .orders-info-none{
+    width:100%;
+    height: 93%;
+    margin-top: 48px;
+    border-top: 0.1px solid #eee;
+    border-left: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    box-shadow: 2px 0px 2px #eee;
+    text-align: center;
+}
+
+.orders-section .container .orders-container .orders-info .orders-image{
+    height:100px;
+    width:100px;
+    margin-left: 460px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.orders-section .container .orders-container .orders-info .orders-paragraph{
+    margin-left: 20px;
+    color:#9b9b9b;
+    font-weight: 500;
+    /* margin-bottom: 30px; */
+}
+
+.orders-section .container .orders-container .orders-info .orders-button{
+    display: block;
+    background-color: cornflowerblue;
+    color:white;
+    margin-left: 452px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+
+.orders-section .container .orders-container .orders-info h1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+.orders-section .container .orders-container .orders-info table{
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    width:95%;
+    /* height:250px; */
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.orders-section .container .orders-container .orders-info table thead .status-info{
+    width:16%;
+    text-align: end;
+    padding-right: 20px;
+    /* border-right: 1px solid #eee; */
+    border-bottom: 1px solid #ddd;
+    height:40px;
+    color:#9b9b9b;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.orders-section .container .orders-container .orders-info table thead .stock-info{
+    width:12%;
+    text-align: end;
+    padding-right: 10px;
+    /* border-right: 1px solid #eee; */
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    height:40px;
+    color:#9b9b9b;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.orders-section .container .orders-container .orders-info table tbody .time-info{
+    width:12%;
+    text-align: start;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    height: 30px;
+    color:rgba(68,68,68,0.9);
+    border-bottom: 1px solid #eee;
+}
+
+.orders-section .container .orders-container .orders-info table tbody .data-info{
+    width:12%;
+    text-align: end;
+    padding-right: 10px;
+    height: 30px;
+    color:rgba(68,68,68,0.9);
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+    font-size: 14px;
+}
+
+.orders-section .container .orders-container .orders-info table tbody .data-info .type-span-buy{
+    width:10px;
+    /* border:2px solid black; */
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    background-color:rgba(100, 149, 237, 0.2);
+    color:rgba(100, 149, 237, 0.9);
+    font-size: 500;
+}
+
+.orders-section .container .orders-container .orders-info table tbody .data-info .type-span-sell{
+    width:10px;
+    /* border:2px solid black; */
+    font-size: 12px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    background-color:rgba(255, 87, 34, 0.2);
+    color:rgba(255, 87, 34, 0.95);
+    font-size: 500;
+}
+
+.orders-section .container .orders-container .orders-info table tbody .data-info .status-span-unfilled{
+    width:20px;
+    /* border:2px solid black; */
+    padding:5px 15px 5px 15px;
+    border-radius: 4px;
+    background-color: #eee;
+    color:rgba(68,68,68,0.75);
+}
+
+.orders-section .container .orders-container .orders-info table tbody .data-info .status-span-partial{
+    width:20px;
+    /* border:2px solid black; */
+    padding:5px 15px 5px 15px;
+    border-radius: 4px;
+    background-color: #FFF6CC;
+    color:#FFB100;
+}
+
+.orders-section .container .orders-container .orders-info table tbody .data-info .status-span-filled{
+    width:20px;
+    /* border:2px solid black; */
+    padding:7px 20px 7px 20px;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: rgba(178, 211, 194,0.5);
+    color:#5DBB63;
+}
+
+/* .orders-section .container .orders-container .orders-info table tbody .data-info */

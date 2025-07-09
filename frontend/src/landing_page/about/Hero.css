@@ -1,0 +1,61 @@
+.about-hero-section{
+    height:700px;
+    width:98vw;
+    margin-top: 70px;
+}
+
+.about-hero-section .container{
+    height: 100%;
+    width: 100%;
+}
+
+.about-hero-section .container .upper-text{
+    width:100%;
+    height:23%;
+    text-align: center;
+}
+
+.about-hero-section .container .upper-text h2{
+    margin-top:165px;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+hr{
+    width:70%;
+    margin-left: 280px;
+    opacity: 0.2;
+}
+
+.about-hero-section .container .lower-text{
+    height:70%;
+    width:100%;
+    display:flex;
+}
+
+.about-hero-section .container .lower-text .lower-left-text{
+    height:100%;
+    width:53%;
+    margin-top: 65px;
+}
+
+.about-hero-section .container .lower-text .lower-left-text p{
+    margin-left:310px;
+    margin-right: 50px;
+    font-size: 17px;
+    color:#424242;
+    line-height: 32px;
+}
+
+.about-hero-section .container .lower-text .lower-right-text{
+    height:100%;
+    width:47%;
+    margin-top: 65px;
+}
+
+.about-hero-section .container .lower-text .lower-right-text p{
+    margin-right: 250px;
+    font-size:17px;
+    color:#424242;
+    line-height: 32px;
+}

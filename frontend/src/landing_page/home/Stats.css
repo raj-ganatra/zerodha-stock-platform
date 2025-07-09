@@ -1,0 +1,68 @@
+.ecosystem-section{
+    height: 800px;
+    width:98vw;
+}
+
+.ecosystem-section .container{
+    height: 100%;
+    width: 100%;
+    display:flex;
+}
+
+.ecosystem-section .container .ecosystem-text{
+    width:35%;
+    height:100%;
+    padding-left: 195px;
+}
+
+.ecosystem-section .container .ecosystem-text h1{
+    font-size: 32px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.ecosystem-section .container .ecosystem-text h2{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.ecosystem-section .container .ecosystem-text .ecosystem-text-div p{
+    margin-top: -12px;
+    margin-bottom: 35px;
+    font-size: 17px;
+    color:#666;
+}
+
+.ecosystem-section .container .ecosystem-image{
+    width:65%;
+    height:100%;
+}
+
+.ecosystem-section .container .ecosystem-image img{
+    width:75%;
+    height:75%;
+    padding-top: 15px;
+    padding-left: 80px;
+}
+
+.ecosystem-section .container .ecosystem-image .anchor-div{
+    margin-top: 30px;
+}
+
+.ecosystem-section .container .ecosystem-image .anchor-div .a1{
+    margin-left: 220px;
+    font-size: 17px;
+}
+
+.ecosystem-section .container .ecosystem-image .anchor-div .a1:hover{
+    color:#444;
+}
+
+.ecosystem-section .container .ecosystem-image .anchor-div .a2{
+    margin-left: 50px;
+    font-size: 17px;
+}
+
+.ecosystem-section .container .ecosystem-image .anchor-div .a2:hover{
+    color:#444;
+}

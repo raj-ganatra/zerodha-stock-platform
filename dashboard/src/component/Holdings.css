@@ -1,0 +1,155 @@
+.holdings-section{
+    height:100vh;
+    width:98vw;
+    background-color: white;
+}
+
+.holdings-section .container{
+    height:100%;
+    width:100%;
+    display:flex;
+}
+
+.holdings-section .container .holdings-container{
+    height: 100%;
+    width:68%;
+    margin-left: 33%;
+}
+
+.holdings-section .container .holdings-container .holdings-info{
+    width:100%;
+    height: 93%;
+    margin-top: 48px;
+    border-top: 0.1px solid #eee;
+    border-left: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    box-shadow: 2px 0px 2px #eee;
+}
+
+.holdings-section .container .holdings-container .holdings-info-none{
+    width:100%;
+    height: 93%;
+    margin-top: 48px;
+    border-top: 0.1px solid #eee;
+    border-left: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    box-shadow: 2px 0px 2px #eee;
+    text-align: center;
+}
+
+.holdings-section .container .holdings-container .holdings-info .holdings-image{
+    height:100px;
+    width:100px;
+    margin-left: 455px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.holdings-section .container .holdings-container .holdings-info .holdings-paragraph{
+    /* margin-left: 405px; */
+    color:#9b9b9b;
+    font-weight: 500;
+    /* margin-bottom: 30px; */
+}
+
+.holdings-section .container .holdings-container .holdings-info .holdings-button{
+    display: block;
+    background-color: cornflowerblue;
+    color:white;
+    margin-left: 446px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+
+.holdings-section .container .holdings-container .holdings-info h1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+.holdings-section .container .holdings-container .holdings-info table{
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    width:95%;
+    /* height:250px; */
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.holdings-section .container .holdings-container .holdings-info table thead .company-name{
+    width:30%;
+    text-align: start;
+    padding-left: 10px;
+    /* border-right: 1px solid #eee; */
+    border-bottom: 1px solid #ddd;
+    height:40px;
+    color:#9b9b9b;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.holdings-section .container .holdings-container .holdings-info table thead .stock-info{
+    width:10%;
+    text-align: end;
+    padding-right: 10px;
+    /* border-right: 1px solid #eee; */
+    border-bottom: 1px solid #ddd;
+    height:40px;
+    color:#9b9b9b;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.holdings-section .container .holdings-container .holdings-info table tbody .company-data{
+    width:30%;
+    text-align: start;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    height: 30px;
+    color:rgba(68,68,68,0.9);
+    border-bottom: 1px solid #eee;
+}
+
+.holdings-section .container .holdings-container .holdings-info table tbody .company-data span{
+    background-color: rgba(255, 87, 34, 0.90);
+    height:90%;
+    /* border:2px solid black; */
+    width:10%;
+    border-radius: 3px;
+    margin-left: 10px;
+    display: none;
+    padding: 2px 15px 5px 15px;
+}
+
+.holdings-section .container .holdings-container .holdings-info table tbody .company-data:hover span{
+    display: inline;
+    cursor: pointer;
+}
+
+.holdings-section .container .holdings-container .holdings-info table tbody .company-data span a{
+    color:white;
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 2px;
+}
+
+.holdings-section .container .holdings-container .holdings-info table tbody .data-info{
+    width:10%;
+    text-align: end;
+    padding-right: 10px;
+    height: 30px;
+    color:rgba(68,68,68,0.9);
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+.holdings-section .container .holdings-container .holdings-info table tbody .profit{
+    color:rgba(76, 175, 80, 1);
+}
+
+.holdings-section .container .holdings-container .holdings-info table tbody .loss{
+    color:rgba(223, 81, 76, 1);
+}

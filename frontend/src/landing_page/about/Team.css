@@ -1,0 +1,60 @@
+.team-section{
+    width:98vw;
+    height:650px;
+}
+
+.team-section .container{
+    width:100%;
+    height:100%;
+}
+
+.team-section .container h1{
+    font-weight: 500;
+    font-size: 32px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 700px;
+}
+
+.team-section .container .ceo-info{
+    width:100%;
+    height:500px;
+    display: flex;
+}
+
+.team-section .container .ceo-info .ceo-image{
+    height:100%;
+    width:47%;
+}
+
+.team-section .container .ceo-info .ceo-image img{
+    height:300px;
+    width:300px;
+    margin-left: 330px;
+    border-radius: 50%;
+}
+
+.team-section .container .ceo-info .ceo-image .ceo-name{
+    margin-left: 265px;
+    text-align: center;
+}
+
+.team-section .container .ceo-info .ceo-image .ceo-name h2{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.team-section .container .ceo-info .ceo-image .ceo-name p{
+    font-size: 15px;
+    color:#666;
+}
+
+.team-section .container .ceo-info .ceo-text{
+    height: 100%;
+    width: 53%;
+}
+
+.team-section .container .ceo-info .ceo-text p{
+    margin-right: 250px;
+    line-height: 30px;
+}

@@ -1,0 +1,61 @@
+.pricing-hero-section{
+    margin-top: 70px;
+    width:98vw;
+    height:850px;
+    border: 2px solid rgba(0,0,0,0);
+}
+
+.pricing-hero-section .container{
+    width: 100%;
+    height: 100%;
+}
+
+.pricing-hero-section .container .heading{
+    width:100%;
+    height:290px;
+    text-align: center;
+}
+
+.pricing-hero-section .container .heading h1{
+    font-weight: 500;
+    font-size: 44px;
+    margin-top: 180px;
+}
+
+.pricing-hero-section .container .heading h2{
+    font-weight: 500;
+    font-size: 20px;
+    color: #9b9b9b;
+    margin-top: -20px;
+}
+
+.pricing-hero-section .container .pricing-info{
+    width:100%;
+    height:380px;
+    display:flex;
+}
+
+.pricing-hero-section .container .pricing-info .pricing-info-div{
+    height:100%;
+    width:25%;
+    text-align: center;
+}
+
+.pricing-hero-section .container .pricing-info .pricing-info-div img{
+    height:190px;
+    width:250px;
+}
+
+.pricing-hero-section .container .pricing-info .pricing-info-div h1{
+    font-weight: 500;
+    font-size: 28px;
+    color:#424242;
+}
+
+.pricing-hero-section .container .pricing-info .pricing-info-div p{
+    color:#666;
+}
+
+.pricing-hero-section .container .pricing-info .div-1{
+    margin-left: 200px;
+}

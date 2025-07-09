@@ -1,0 +1,50 @@
+.navbar-section{
+    width:100vw;
+    height:70px;
+    background-color: white;
+    /* margin-bottom: 75px; */
+    z-index: 10;
+    position: fixed;
+    box-shadow: 0px 0.2px 1px #9b9b9b;
+}
+
+.navbar-section .container{
+    width:100%;
+    height:100%;
+    display:flex;
+}
+
+.navbar-section .container .navbar-zerodha-logo{
+    height:100%;
+    width:52%;
+}
+
+.navbar-section .container .navbar-zerodha-logo img{
+    height:25%;
+    margin-top: 25px;
+    padding-left: 200px;
+}
+
+.navbar-section .container .navbar-links{
+    width:48%;
+    height:100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.navbar-section .container .navbar-links a{
+    margin-left: 40px;
+    color: #9b9b9b;
+    font-size: 14.5px;
+}
+
+.navbar-section .container .navbar-links .color{
+    color:cornflowerblue;
+}
+
+.navbar-section .container .navbar-links i{
+    margin-left: 40px;
+    font-size: 20px;
+    color: #949494;;
+}

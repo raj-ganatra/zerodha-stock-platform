@@ -1,0 +1,109 @@
+.support-createticket-section{
+    width:98vw;
+    height:700px;
+    margin-bottom: 100px;
+}
+
+.support-createticket-section .container{
+    width:100%;
+    height: 100%;
+}
+
+.support-createticket-section .container .upper-text{
+    width:100%;
+    height:60px;
+    padding-top: 40px;
+}
+
+.support-createticket-section .container .upper-text h1{
+    font-weight: 400;
+    font-size: 20px;
+    color: #666;
+    opacity: 0.8;
+    margin-left: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.support-createticket-section .container .links{
+    width: 100%;
+    height:590px;
+}
+
+.support-createticket-section .container .links .upper-links{
+    width:100%;
+    height:295px;
+    display:flex;
+}
+
+.support-createticket-section .container .links .upper-links .upper-link-div{
+    height:100%;
+    width: 25%;
+}
+
+.support-createticket-section .container .links .upper-links .div-1{
+    margin-left: 200px;
+}
+
+.support-createticket-section .container .links .upper-links .div-3{
+    margin-right: 50px;
+}
+
+.support-createticket-section .container .links .upper-links .upper-link-div h2{
+    font-weight: 400;
+    font-size: 18px;
+    color:#222;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+.support-createticket-section .container .links .upper-links .upper-link-div a{
+    display: block;
+    font-size: 14px;
+    margin-left: 28px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.support-createticket-section .container .links .upper-links .upper-link-div a:hover{
+    color:rgba(68, 68, 68, 0.8);
+}
+
+.support-createticket-section .container .links .lower-links{
+    width:100%;
+    height:295px;
+    display:flex;
+}
+
+.support-createticket-section .container .links .lower-links .lower-link-div{
+    height:100%;
+    width: 25%;
+}
+
+.support-createticket-section .container .links .lower-links .div-1{
+    margin-left: 200px;
+}
+
+.support-createticket-section .container .links .lower-links .div-3{
+    margin-right: 50px;
+}
+
+.support-createticket-section .container .links .lower-links .lower-link-div h2{
+    font-weight: 400;
+    font-size: 18px;
+    color:#222;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+.support-createticket-section .container .links .lower-links .lower-link-div a{
+    display: block;
+    font-size: 14px;
+    margin-left: 28px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.support-createticket-section .container .links .lower-links .lower-link-div a:hover{
+    color:rgba(68, 68, 68, 0.8);
+}

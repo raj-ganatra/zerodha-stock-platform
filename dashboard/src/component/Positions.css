@@ -1,0 +1,144 @@
+.positions-section{
+    height:100vh;
+    width:98vw;
+    background-color: white;
+}
+
+.positions-section .container{
+    height:100%;
+    width:100%;
+    display:flex;
+}
+
+.positions-section .container .positions-container{
+    height: 100%;
+    width:68%;
+    margin-left: 33%;
+}
+
+.positions-section .container .positions-container .positions-info{
+    width:100%;
+    height: 93%;
+    margin-top: 48px;
+    border-top: 0.1px solid #eee;
+    border-left: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    box-shadow: 2px 0px 2px #eee;
+}
+
+.positions-section .container .positions-container .positions-info .positions-image{
+    height:100px;
+    width:100px;
+    margin-left: 460px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.positions-section .container .positions-container .positions-info .positions-paragraph{
+    margin-left: 405px;
+    color:#9b9b9b;
+    font-weight: 500;
+    /* margin-bottom: 30px; */
+}
+
+.positions-section .container .positions-container .positions-info .positions-button{
+    display: block;
+    background-color: cornflowerblue;
+    color:white;
+    margin-left: 452px;
+    margin-top: 30px;
+    border-radius: 3px;
+}
+
+.positions-section .container .positions-container .positions-info h1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+.positions-section .container .positions-container .positions-info table{
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    width:95%;
+    /* height:250px; */
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.positions-section .container .positions-container .positions-info table thead .company-name{
+    width:30%;
+    text-align: start;
+    padding-left: 10px;
+    /* border-right: 1px solid #eee; */
+    border-bottom: 1px solid #ddd;
+    height:40px;
+    color:#9b9b9b;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.positions-section .container .positions-container .positions-info table thead .stock-info{
+    width:12%;
+    text-align: end;
+    padding-right: 10px;
+    /* border-right: 1px solid #eee; */
+    border-bottom: 1px solid #ddd;
+    height:40px;
+    color:#9b9b9b;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.positions-section .container .positions-container .positions-info table tbody .company-data{
+    width:30%;
+    text-align: start;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    height: 30px;
+    color:rgba(68,68,68,0.9);
+    border-bottom: 1px solid #eee;
+}
+
+.positions-section .container .positions-container .positions-info table tbody .company-data span{
+    background-color: rgba(255, 87, 34, 0.90);
+    height:90%;
+    /* border:2px solid black; */
+    width:10%;
+    border-radius: 3px;
+    margin-left: 10px;
+    display: none;
+    padding: 2px 15px 5px 15px;
+}
+
+.positions-section .container .positions-container .positions-info table tbody .company-data:hover span{
+    display: inline;
+    cursor: pointer;
+}
+
+.positions-section .container .positions-container .positions-info table tbody .company-data span a{
+    color:white;
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 2px;
+}
+
+.positions-section .container .positions-container .positions-info table tbody .data-info{
+    width:12%;
+    text-align: end;
+    padding-right: 10px;
+    height: 30px;
+    color:rgba(68,68,68,0.9);
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+.positions-section .container .positions-container .positions-info table tbody .profit{
+    color:rgba(76, 175, 80, 1);
+}
+
+.positions-section .container .positions-container .positions-info table tbody .loss{
+    color:rgba(223, 81, 76, 1);
+}

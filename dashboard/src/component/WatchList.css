@@ -1,0 +1,196 @@
+.watchlist-container{
+    height:100vh;
+    /* border:2px solid black; */
+    width:32%;
+    background-color: rgba(238,238,238,0.4);
+    position: fixed;
+}
+
+.watchlist-container .watchlist-info{
+    /* border:2px solid blue; */
+    width:90%;
+    height:95%;
+    margin-left: 47px;
+    margin-top: 2px;
+    box-shadow: -2px 0px 2px #eee;
+    background-color: white;
+    padding-top: 2px;
+}
+
+
+.watchlist-container .watchlist-info .search-bar{
+    height:40px;
+    width:94%;
+    border:2px solid #eee;
+    margin-left: 12px;
+    margin-top: 15px;
+    display:flex;
+}
+
+.watchlist-container .watchlist-info .search-bar .search{
+    width:8%;
+    height:100%;
+    border-right: 2px solid rgba(238,238,238,0.5);
+    text-align: center;
+}
+
+.watchlist-container .watchlist-info .search-bar .search i{
+    font-size: 12px;
+    margin-top: 13px;
+    color:#9b9b9b;
+}
+
+.watchlist-container .watchlist-info .search-bar input{
+    border:none;
+    width:60%;
+    padding-left: 20px;
+}
+
+.watchlist-container .watchlist-info .search-bar input:focus{
+    outline: none;
+}
+
+.watchlist-container .watchlist-info .search-bar input::placeholder{
+    font-size: 12.5px;
+    color:#9b9b9b;
+}
+
+.watchlist-container .watchlist-info .search-bar p{
+    border:2px solid #eee;
+    background-color: rgba(238, 238, 238, 0.4);
+    color:#9b9b9b;
+    height:18px;
+    width:12%;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 7px;
+    padding-top: 4px;
+    border-radius: 4px;
+}
+
+.watchlist-container .watchlist-info .search-bar .sliders{
+    margin-left: 20px;
+}
+
+.watchlist-container .watchlist-info .search-bar .sliders a{
+    cursor: pointer;
+}
+
+.watchlist-container .watchlist-info .search-bar .sliders a:hover{
+    opacity:0.6;
+}
+
+.watchlist-container .watchlist-info .search-bar .sliders a i{
+    font-size: 14px;
+    margin-top: 13px;
+    color: #9b9b9b;
+}
+
+.watchlist-container .watchlist-info .watchlist{
+    height:30px;
+    /* border:2px solid blue; */
+    width:94%;
+    margin-left: 13px;
+    display: flex;
+    margin-top: 5px;
+}
+
+.watchlist-container .watchlist-info .watchlist p{
+    /* border:2px solid blue; */
+    margin-top: 0px;
+    height: 70%;
+    width: 75%;
+    font-size: 11px;
+    color: #9b9b9b;
+    padding-top: 8px;
+}
+
+.watchlist-container .watchlist-info .watchlist div{
+    height: 100%;
+    width:24%;
+    /* border:2px solid green; */
+    text-align: end;
+}
+
+.watchlist-container .watchlist-info .watchlist div a{
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.watchlist-container .watchlist-info .watchlist div a:hover{
+    color:#FF5722;
+}
+
+.watchlist-container .watchlist-info .display-stocks{
+    width:93.5%;
+    height:85%;
+    /* border:2px solid black; */
+    margin-left: 13px;
+    border:1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.watchlist-container .watchlist-info .display-stocks .tools{
+    width:100%;
+    height:25px;
+    /* border:2px solid red; */
+    display:flex;
+    background-color: rgba(238, 238, 238, 0.6);
+    border-radius: 5px;
+    border-bottom: 2px solid #eee;
+}
+
+.watchlist-container .watchlist-info .display-stocks .tools .text{
+    /* border:2px solid blue; */
+    width:70%;
+    height:87%;
+    font-size: 11px;
+    margin-top: 2px;
+    padding-top: 2px;
+    font-weight: 600;
+    color:rgba(0,0,0,0.6);
+    padding-left: 10px;
+    cursor:grab;
+}
+
+.watchlist-container .watchlist-info .display-stocks .tools .arrow-up{
+    /* border:2px solid orange; */
+    width:10%;
+    height:100%;
+    margin-top: 1px;
+    text-align: center;
+    cursor:pointer;
+}
+
+.watchlist-container .watchlist-info .display-stocks .tools .arrow-up:hover{
+    color:#FF5722;
+}
+
+.watchlist-container .watchlist-info .display-stocks .tools .edit{
+    /* border:2px solid orange; */
+    width:10%;
+    height:100%;
+    margin-top: 3px;
+    text-align: center;
+    font-size: 12px;
+    cursor:pointer;
+}
+
+.watchlist-container .watchlist-info .display-stocks .tools .edit:hover{
+    color:#FF5722;
+}
+
+.watchlist-container .watchlist-info .display-stocks .tools .dot{
+    width:10%;
+    height: 100%;
+    /* border:2px solid orange; */
+    margin-top: 2px;
+    text-align: center;
+    font-size: 14px;
+    cursor:pointer;
+}
+
+.watchlist-container .watchlist-info .display-stocks .tools .dot:hover{
+    color:#FF5722;
+}

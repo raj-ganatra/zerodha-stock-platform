@@ -1,0 +1,108 @@
+.dashboard-section{
+    height: 100vh;
+    width: 98vw;
+    /* margin-top: -45px; */
+    background-color: white;
+    /* background-color: purple; */
+}
+
+.dashboard-section .container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.dashboard-section .container .dashboard-container{
+    /* border:2px solid blue; */
+    height: 100%;
+    width:68%;
+    margin-left: 33%;
+}
+
+.dashboard-section .container .dashboard-container .dashboard-info{
+    /* border:2px solid green; */
+    width:100%;
+    height: 93%;
+    margin-top: 48px;
+    border-top: 0.1px solid #eee;
+    border-left: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    box-shadow: 2px 0px 2px #eee;
+}
+
+.dashboard-section .container .dashboard-container .dashboard-info .upper-h1{
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color:#444;
+    margin-left: 20px;
+}
+
+.dashboard-section .container .dashboard-container .dashboard-stats{
+    width:95.5%;
+    height:230px;
+    /* border:2px solid pink; */
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    display: flex;
+    margin-left: 20px;
+}
+
+.dashboard-section .container .dashboard-container .dashboard-stats .dashboard-equity{
+    width:50%;
+    height:100%;
+    /* border:2px solid orange; */
+    display:flex;
+}
+
+.dashboard-section .container .dashboard-container .dashboard-stats .dashboard-equity .margin-value{
+    width:50%;
+    height:100%;
+    /* border:2px solid yellow; */
+}
+
+.dashboard-section .container .dashboard-container .dashboard-stats .dashboard-equity .margin-value h2{
+    font-weight: 400;
+    font-size: 17px;
+    color:#444;
+    /* margin-left: 20px; */
+}
+
+.dashboard-section .container .dashboard-container .dashboard-stats .dashboard-equity .margin-value .lower-h1{
+    font-size: 50px;
+    font-weight: 100;
+    color:#444;
+    margin: 20px 0px -5px 0px;
+    transform: scaleX(0.99);
+    font-family: 'Open Sans Hairline';
+}
+
+.dashboard-section .container .dashboard-container .dashboard-stats .dashboard-equity .margin-value p{
+    color: #9b9b9b;
+    font-size: 12px;
+    margin-top: 20px;
+    /* margin-left: 20px; */
+}
+
+.dashboard-section .container .dashboard-container .dashboard-stats .dashboard-equity .margin-info{
+    padding-top: 62px;
+    padding-left: 20px;
+}
+
+.dashboard-section .container .dashboard-container .dashboard-stats .dashboard-equity .margin-info p{
+    font-size: 12px;
+    color: #9b9b9b;
+    display: inline;
+    line-height: 35px;
+}
+
+.dashboard-section .container .dashboard-container .dashboard-stats .dashboard-equity .margin-info a{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+hr{
+    width:95%;
+    opacity:0.2;
+    margin-bottom: 20px;
+}

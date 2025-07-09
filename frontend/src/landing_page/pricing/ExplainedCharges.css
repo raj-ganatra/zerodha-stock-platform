@@ -1,0 +1,91 @@
+.pricing-explainedcharges-section{
+    width:98vw;
+    height:700px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.pricing-explainedcharges-section .container{
+    width:100%;
+    height: 100%;
+}
+
+.pricing-explainedcharges-section .container .upper-div{
+    width: 100%;
+    height:50%;
+}
+
+.pricing-explainedcharges-section .container .upper-div h1{
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 200px;
+}
+
+.pricing-explainedcharges-section .container .upper-div table{
+    border:1px solid #ddd;
+    margin-left: 200px;
+    width:74%;
+    height:250px;
+    margin-top: 30px;
+}
+
+.pricing-explainedcharges-section .container .upper-div table th{
+    text-align: start;
+    border-bottom: 1px solid #ddd;
+    font-weight: 500;
+    font-size: 14px;
+    padding:10px 0px 10px 20px;
+    color:#424242;
+}
+
+.pricing-explainedcharges-section .container .upper-div table td{
+    text-align: start;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 20px;
+    color:#424242;
+}
+
+.pricing-explainedcharges-section .container .upper-div table td span{
+    background-color: #4caf50;
+    color:white;
+    font-size: 12px;
+    padding: 4px 10px 4px 10px;
+    border-radius: 2px;
+}
+
+.pricing-explainedcharges-section .container .lower-div{
+    width: 100%;
+    height:50%;
+}
+
+.pricing-explainedcharges-section .container .lower-div h1{
+    font-weight: 500;
+    font-size: 24px;
+    margin-left: 200px;
+}
+
+.pricing-explainedcharges-section .container .lower-div table{
+    border:1px solid #ddd;
+    margin-left: 200px;
+    width:74%;
+    height:250px;
+    margin-top: 30px;
+}
+
+.pricing-explainedcharges-section .container .lower-div table th{
+    text-align: start;
+    border-bottom: 1px solid #ddd;
+    font-weight: 500;
+    font-size: 14px;
+    padding:10px 0px 10px 20px;
+    color:#424242;
+}
+
+.pricing-explainedcharges-section .container .lower-div table td{
+    text-align: start;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 20px;
+    color:#424242;
+}

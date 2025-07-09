@@ -1,0 +1,239 @@
+.newstock-container{
+    height:40px;
+    width:100%;
+    /* border:2px solid red; */
+    display: flex;
+    border-bottom: 1px solid #eee;
+}
+
+.newstock-container:hover{
+    background-color: rgba(238,238,238,0.4);
+}
+
+.newstock-container:hover .hover{
+    display: none;
+}
+
+.newstock-container:hover .company-name-down{
+    margin-right: 30px;
+}
+
+.newstock-container:hover .company-name-up{
+    margin-right: 30px;
+}
+
+
+.newstock-container:hover .link{
+    display: block;
+}
+
+.newstock-container .company-name-down{
+    /* border:2px solid yellow; */
+    width:33%;
+    height:80%;
+    margin-top: 0px;
+    font-size: 14px;
+    color:rgba(223, 81, 76, 1);
+    padding-top: 8px;
+    padding-left: 10px;
+    margin-right: 40px;
+    /* margin-right: 50px; */
+}
+
+.newstock-container .company-name-up{
+    /* border:2px solid yellow; */
+    width:33%;
+    height:80%;
+    margin-top: 0px;
+    font-size: 14px;
+    color:rgba(76, 175, 80, 1);
+    padding-top: 8px;
+    padding-left: 10px;
+    margin-right: 40px;
+    /* margin-right: 50px; */
+}
+
+.newstock-container a{
+    display: none;
+    cursor: pointer;
+}
+
+.newstock-container .buy{
+    width:15%;
+    height:60%;
+    margin-top: 6px;
+    /* border:2px solid rgba(100, 108, 255, 0.75); */
+    border-radius: 4px;
+    background-color: rgba(100, 108, 255, 0.95);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    padding-top:5px;
+    color:white;
+}
+
+.newstock-container .buy:hover{
+    opacity:0.85;
+}
+
+.newstock-container .sell{
+    width:15%;
+    height:63%;
+    margin-top: 6px;
+    font-weight: 600;
+    /* border:2px solid rgba(255, 87, 34, 0.75); */
+    border-radius: 4px;
+    background-color: rgba(255, 87, 34, 0.90);
+    text-align: center;
+    font-size: 13px;
+    padding-top:4.1px;
+    color:white;
+    margin-left: 4px;
+}
+
+.newstock-container .sell:hover{
+    opacity:0.85;
+}
+
+.newstock-container .dept{
+    width:13%;
+    border:1px solid #9b9b9b;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 12px;
+    padding-top: 5.5px;
+    height:55%;
+    color:rgba(0,0,0,0.7);
+    margin-top: 6px;
+    margin-left: 4px;
+}
+
+.newstock-container .dept:hover{
+    background-color: #9b9b9b;
+    color: white;
+}
+
+.newstock-container .up-trend{
+    width:13%;
+    border:1px solid #9b9b9b;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 12px;
+    padding-top: 5.5px;
+    height:55%;
+    color:rgba(0,0,0,0.7);
+    margin-top: 6px;
+    margin-left: 4px;
+}
+
+.newstock-container .up-trend:hover{
+    background-color: #9b9b9b;
+    color: white;
+}
+
+.newstock-container .delete{
+    width:13%;
+    border:1px solid #9b9b9b;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 12px;
+    padding-top: 5.5px;
+    height:55%;
+    color:rgba(0,0,0,0.7);
+    margin-top: 6px;
+    margin-left: 4px;
+}
+
+.newstock-container .delete:hover{
+    background-color: #9b9b9b;
+    color: white;
+}
+
+.newstock-container .dot{
+    width:13%;
+    border:1px solid #9b9b9b;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+    padding-top: 3px;
+    height:62%;
+    color:rgba(0,0,0,0.7);
+    margin-top: 6px;
+    margin-left: 4px;
+    margin-right: 8px;
+}
+
+.newstock-container .dot:hover{
+    background-color: #9b9b9b;
+    color: white;
+}
+
+.newstock-container .up-down{
+    font-size: 14px;
+    /* border:2px solid blue; */
+    width:12%;
+    height: 80%;
+    margin-top: 0px;
+    padding-top: 8px;
+    text-align: center;
+    color: #9b9b9b;
+    font-weight: 100;
+    margin-left: 40px;
+}
+
+.newstock-container .up-down-percentage{
+    font-size: 14px;
+    /* border:2px solid blue; */
+    width:13%;
+    height: 80%;
+    margin-top: 0px;
+    padding-top: 8px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.newstock-container .up-down-arrow-down{
+    font-size: 12px;
+    /* border:2px solid blue; */
+    width:5%;
+    height: 80%;
+    margin-top: 0px;
+    padding-top: 8px;
+    text-align: center;
+    color:rgba(223, 81, 76, 1);
+}
+
+.newstock-container .up-down-arrow-up{
+    font-size: 12px;
+    /* border:2px solid blue; */
+    width:5%;
+    height: 80%;
+    margin-top: 2px;
+    padding-top: 8px;
+    text-align: center;
+    color:rgba(76, 175, 80, 1);
+}
+
+.newstock-container .price-down{
+    font-size: 13px;
+    /* border:2px solid blue; */
+    width:15%;
+    height: 80%;
+    margin-top: 0px;
+    padding-top: 8px;
+    text-align: center;
+    color:rgba(223, 81, 76, 1);
+    margin-right: 5px;
+}
+
+.newstock-container .price-up{
+    font-size: 13px;
+    /* border:2px solid blue; */
+    width:15%;
+    height: 80%;
+    margin-top: 0px;
+    padding-top: 8px;
+    text-align: center;
+    color:rgba(76, 175, 80, 1);
+    margin-right: 5px;
+}

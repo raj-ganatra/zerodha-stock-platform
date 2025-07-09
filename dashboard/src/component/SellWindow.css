@@ -1,0 +1,134 @@
+.sellwindow-container{
+    height:420px;
+    width:300px;
+    top: 315px;               /* Distance from the top */
+    left: 600px;  
+    border-right:0.1px solid rgba(0,0,0,0.1);
+    border-left:0.1px solid rgba(0,0,0,0.1);
+    position:fixed;
+    z-index: 1000;
+    background-color: white;
+    /* background-color: aqua; */
+}
+
+.sellwindow-container .upper-div{
+    height:70px;
+    width:99.5%;
+    border: 0.05px solid rgba(255, 87, 34, 0.95);
+    /* background-color: rgba(100, 108, 255, 0.85); */
+    background-color:rgba(255, 87, 34, 0.95);
+    border-radius: 3px;
+}
+
+.sellwindow-container .heading-div{
+    height:35px;
+    width:100%;
+    display: flex;
+}
+
+.sellwindow-container .upper-div h1{
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color:white;
+    font-weight: 500;
+    width: 50%;
+}
+
+.sellwindow-container .upper-div i{
+    font-size: 10px;
+}
+
+.sellwindow-container .upper-div .BSE{
+    color:white;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.sellwindow-container .upper-div .NSE{
+    color:rgba(255,255,255,0.5);
+    font-size: 12px;
+}
+
+.sellwindow-container .middle-div .options{
+    height: 30px;
+    /* border:2px solid black; */
+    display: flex;
+    background-color: rgba(238,238,238,0.5);
+    border-radius: 5px;
+    border: 2px solid #eee;
+}
+
+.sellwindow-container .middle-div .options div{
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    /* border:2px solid red; */
+    border-bottom: 2px solid rgba(255, 87, 34, 0.95);
+    margin-right: 20px;
+    padding-top: 2px;
+}
+
+.sellwindow-container .middle-div .options div a{
+    font-size: 13px;
+    margin-left: -3px;
+    color:rgba(255, 87, 34, 0.95);
+    font-weight: 500;
+}
+
+.sellwindow-container .middle-div .input .checkbox{
+    margin-top: 30px;
+    margin-left: 15px;
+    transform: scale(1.25);
+    accent-color: rgba(238,238,238,0.5);
+}
+ 
+.sellwindow-container .middle-div .input .checkbox-label{
+    margin-left: 5px;
+    font-size: 13px;
+    font-weight: 400;
+    color:#444;
+}
+
+.sellwindow-container .lower-div{
+    height:115px;
+    width:100%;
+    /* border:2px solid black; */
+    background-color:rgba(238,238,238,0.5);
+    margin-top: 10px;
+}
+
+.sellwindow-container .lower-div button{
+    width:90%;
+    height:40px;
+    /* border:2px solid black; */
+    margin-top: 10px;
+    margin-left: 13px;
+    border-radius: 5px;
+}
+
+.sellwindow-container .lower-div .sell{
+    background-color:rgba(255, 87, 34, 0.95);
+    color:white;
+    border:1px solid rgba(255, 87, 34, 0.95);
+}
+
+.sellwindow-container .lower-div .cancel{
+    background-color:white;
+    color:#444;
+    border:1px solid black;
+}
+
+.sellwindow-container .lower-div .sell:hover{
+    opacity: 0.85;
+}
+
+.sellwindow-container .lower-div .cancel:hover{
+    background-color:rgba(238,238,238,1);
+}
+
+.sellwindow-container .lower-div button:focus{
+  outline: none;
+}
