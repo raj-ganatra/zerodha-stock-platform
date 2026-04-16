@@ -1,4 +1,4 @@
-require('dotenv').config();
+// require('dotenv').config();
 
 const express=require("express");
 const mongoose=require("mongoose");
@@ -24,7 +24,8 @@ const {productSchema,userSchema,positionSchema,holdingSchema,orderSchema}=requir
 
 // console.log(ExpressError);
 
-const dbUrl=process.env.ATLASDB_URL;
+// const dbUrl=process.env.ATLASDB_URL;
+const dbUrl = "mongodb://127.0.0.1:27017/zerodha";
 
 const app=express();
 
@@ -55,10 +56,12 @@ const sessionOptions={
 }
 
 app.use(session(sessionOptions));
+//"https://dashboard-v8fk.onrender.com",
+//"https://frontend-l0do.onrender.com",
 app.use(cors({
     origin:[
-        "https://frontend-l0do.onrender.com",
-        "https://dashboard-v8fk.onrender.com",
+        "http://localhost:5173",  // frontend
+        "http://localhost:5175",  //dashboard
     ],
     credentials:true,
 }));

@@ -14,6 +14,8 @@ import ScrollTop from './landing_page/ScrollTop.jsx';
 
 import axios from "axios";
 
+// https://frontend-l0do.onrender.com  render route
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>

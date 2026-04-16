@@ -21,7 +21,9 @@ function Funds() {
 
     useEffect(()=>{
         async function check(){
-            let response = await axios.get("https://zerodha-stock-platform.onrender.com/check-auth",{withCredentials:true});
+            //http://localhost:5175/
+            //https://zerodha-stock-platform.onrender.com/
+            let response = await axios.get("http://localhost:3000/check-auth",{withCredentials:true});
         
             if(response.data==="notLoggedIn"){
                 window.location.href = "/";
@@ -44,7 +46,9 @@ function Funds() {
 
     async function addOrders(data){
         try{
-            let placedOrder=await axios.post("https://zerodha-stock-platform.onrender.com/orders/place",data,{withCredentials:true});
+            //http://localhost:5175/
+            //https://zerodha-stock-platform.onrender.com/orders/place
+            let placedOrder=await axios.post("http://localhost:3000/orders/place",data,{withCredentials:true});
             console.log(placedOrder.data);
             setMsg(()=>{
                 return "Order Placed SuccessFully!";

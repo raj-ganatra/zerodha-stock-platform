@@ -20,7 +20,8 @@ function Dashboard() {
 
     useEffect(()=>{
         async function check(){
-            let response = await axios.get("https://zerodha-stock-platform.onrender.com/check-auth",{withCredentials:true});
+            //https://zerodha-stock-platform.onrender.com/check-auth
+            let response = await axios.get("http://localhost:3000/check-auth",{withCredentials:true});
             console.log(response.data);
             if(response.data==="notLoggedIn"){
                 window.location.href = "/?message=You are not LoggedIn!&severity=info&type=Info";
@@ -72,7 +73,9 @@ function Dashboard() {
 
     async function addOrders(data){
         try{
-            let placedOrder=await axios.post("https://zerodha-stock-platform.onrender.com/orders/place",data,{withCredentials:true});
+            //http://localhost:5175/
+            //https://zerodha-stock-platform.onrender.com/orders/place
+            let placedOrder=await axios.post("http://localhost:3000/orders/place",data,{withCredentials:true});
             console.log(placedOrder.data);
             setMsg(()=>{
                 return "Order Placed SuccessFully!";
@@ -149,7 +152,7 @@ function Dashboard() {
             <div className='dashboard-container'>
                 <Menu username={username} email={email}/>
                 <div className='dashboard-info'>
-                    <h1 className='upper-h1'>Hi, Raj</h1>
+                    <h1 className='upper-h1'>Hi, {username}</h1>
                     <hr></hr>
                     <div className='dashboard-stats'>
                         <div className='dashboard-equity'>

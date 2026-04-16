@@ -4,6 +4,8 @@ import axios from "axios";
 import { NavLink } from 'react-router-dom';
 
 import "./Menu.css";
+//http://localhost:5175/
+//https://zerodha-stock-platform.onrender.com/
 
 function Menu({username,email}) {
 
@@ -18,7 +20,7 @@ function Menu({username,email}) {
 
     async function handleLogout(){
         try{
-            let response=await axios.get("https://zerodha-stock-platform.onrender.com/logout",{withCredentials:true});
+            let response=await axios.get("http://localhost:3000/logout",{withCredentials:true});
             if(response.data==="logout"){
                 console.log("logout");
                 return window.location.href = "/?message=LoggedOut Successfully!&severity=success&type=Success";

@@ -65,7 +65,8 @@ function Login() {
         }
 
         try{
-            let response=await axios.post("https://zerodha-stock-platform.onrender.com/login",formData,{withCredentials:true});;
+            //https://zerodha-stock-platform.onrender.com/login
+            let response=await axios.post("http://localhost:3000/login",formData,{withCredentials:true});;
             console.log(response.data);
 
             if(response.data==="login-successfully!"){
@@ -96,7 +97,7 @@ function Login() {
                         <form onSubmit={handleForm}>
                             <Input name="username" label="Phone or User ID" type="text" width={"80%"} onChange={handleUsernameChange} val={usernameVal}/>
                             <Input name="password" label="Password" type="password" width={"80%"} onChange={handlePasswordChange} val={passwordVal}/>
-                            <button>Login</button>
+                            <button type="submit">Login</button>
                         </form>
                         <br></br>
                         <a href="http://localhost:5173/signup">Don't have an account? Signup now!</a>

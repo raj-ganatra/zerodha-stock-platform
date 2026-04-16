@@ -3,8 +3,8 @@ import { useEffect } from 'react';
 import axios from "axios";
 
 function App() {
-    // let URL="http://localhost:3000/";
-    let URL="https://zerodha-stock-platform.onrender.com";
+    let URL="http://localhost:3000/";
+    // let URL="https://zerodha-stock-platform.onrender.com";
 
     useEffect(()=>{
         async function connect(){

@@ -51,8 +51,8 @@ function Signup() {
                 email:emailVal,
                 password:passwordVal,
             }
-
-            let response=await axios.post("https://zerodha-stock-platform.onrender.com/signup",formData,{ withCredentials: true });
+            //https://zerodha-stock-platform.onrender.com/signup
+            let response=await axios.post("http://localhost:3000/signup",formData,{ withCredentials: true });
             console.log(response.data);
 
             window.location.href = "/?message=You have been signuped Successfully!&severity=success&type=Success";

@@ -22,9 +22,11 @@ function Orders() {
     let [severity,setSeverity]=useState();
     let [type,setType]=useState();
 
+    //http://localhost:5175/
+    //https://zerodha-stock-platform.onrender.com/
     useEffect(()=>{
         async function check(){
-            let response = await axios.get("https://zerodha-stock-platform.onrender.com/check-auth",{withCredentials:true});
+            let response = await axios.get("http://localhost:3000/check-auth",{withCredentials:true});
             // console.log(response.data);
             if(response.data==="notLoggedIn"){
                 window.location.href = "/";
@@ -53,7 +55,7 @@ function Orders() {
                 ...position,
                 avg:Number(position.avg),
             }
-            let postResponse=await axios.post("https://zerodha-stock-platform.onrender.com/positions",updatedPosition,{withCredentials:true});
+            let postResponse=await axios.post("http://localhost:3000/positions",updatedPosition,{withCredentials:true});
             setMsg(()=>{
                 return "Added to Positions SuccessFully!";
             })
@@ -115,7 +117,7 @@ function Orders() {
 
     async function addHoldings(holding){
         try{
-            let postResponse=await axios.post("https://zerodha-stock-platform.onrender.com/holdings",holding,{withCredentials:true});
+            let postResponse=await axios.post("http://localhost:3000/holdings",holding,{withCredentials:true});
             console.log(postResponse.data);
 
             setMsg(()=>{
@@ -178,7 +180,7 @@ function Orders() {
 
     async function addOrders(data){
         try{
-            let placedOrder=await axios.post("https://zerodha-stock-platform.onrender.com/orders/place",data,{withCredentials:true});
+            let placedOrder=await axios.post("http://localhost:3000/orders/place",data,{withCredentials:true});
             console.log(placedOrder.data);
             console.log("order recived!");
 
@@ -246,7 +248,7 @@ function Orders() {
     }
 
     async function getOrders(userId){
-        let orders=await axios.get(`https://zerodha-stock-platform.onrender.com/orders/${userId}`,{withCredentials:true});
+        let orders=await axios.get(`http://localhost:3000/orders/${userId}`,{withCredentials:true});
         
 
         setExistOrder(orders.data.length>0);
@@ -262,7 +264,7 @@ function Orders() {
                 console.log("bye");
                 if(order.status==="filled" && order.isChecked===true){
                     console.log("Hello");
-                    await axios.put(`https://zerodha-stock-platform.onrender.com/orders/${order.userId}`,{companyName:order.companyName},{withCredentials:true});
+                    await axios.put(`http://localhost:3000/orders/${order.userId}`,{companyName:order.companyName},{withCredentials:true});
                     console.log("hi");
                     addPositions({
                         ...order,
@@ -270,7 +272,7 @@ function Orders() {
                         isProcessed:true,
                     });
                 }else if(order.status==="filled" && order.isChecked===false){
-                    await axios.put(`https://zerodha-stock-platform.onrender.com/orders/${order.userId}`,{companyName:order.companyName},{withCredentials:true});
+                    await axios.put(`http://localhost:3000/orders/${order.userId}`,{companyName:order.companyName},{withCredentials:true});
                     addHoldings({
                         ...order,
                         avg:order.price/order.qty,
